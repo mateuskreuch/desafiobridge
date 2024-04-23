@@ -2,7 +2,7 @@
 FROM openjdk:18-jdk-slim
 
 # Copy the packaged JAR file into the container at defined working directory
-COPY backend/PrimeCounter.jar app.jar
+COPY PrimeCounter.jar app.jar
 
 # Expose the port your application runs on
 EXPOSE 8080
